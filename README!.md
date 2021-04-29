@@ -7,5 +7,4 @@ to take photos of yourself at various angles/lighting etc. I chose to do 15 shot
 The second step is to run the train_model.py file in a command prompt, which will then take the headshots taken earlier, and encode them into readable text. The data is then dumped into the "encodings.pickle" file. Pickling is basically the use of converting of an object in Python into a character stream to be used in other files.
 The last file to use is the face_lock.py file. This file is used to pull the encodings.pickle file, and using the "haarcascade_frontalface_default.xml",
 will then detect faces preregistered. This file will also then use the GPIO outputs on the Raspberry Pi to send signals to the circuit I created, therefore locking/unlocking
-the doorlock. I used a wide variety websites and code listings found online to create my project. I used OpenCV as the biggest contributer for the facial recognition, and imutils
-for the majority of the image processing.
+the doorlock. I used a wide variety of related websites and open source code listings found within them online to create my project. I used OpenCV as the biggest contributer for the facial recognition, and imutils for the majority of the image processing.
